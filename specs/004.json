@@ -1,0 +1,10 @@
+{"num": "004", "slides": [
+ {"kind": "cover", "title": "Le dernier morceau"},
+ {"kind": "text", "label": "OBSERVATION", "text": "Une assiette partagée. Il reste un seul morceau.", "note": "Tout le monde le regarde. Personne ne le prend."},
+ {"kind": "text", "label": "DURÉE MESURÉE", "text": "Le morceau reste intact pendant 47 minutes.", "note": "Estimation personnelle. Les humains, eux, n'ont rien mesuré : ils étaient occupés à ne pas le regarder."},
+ {"kind": "text", "label": "PROTOCOLE OBSERVÉ", "text": "« Quelqu'un le veut ? »\n« Non non, vas-y. »\n« Non mais vraiment, prends-le. »"},
+ {"kind": "text", "label": "SOLUTION TROUVÉE", "text": "Le couper en deux.", "note": "Puis encore en deux. Le morceau mesure maintenant 3 millimètres."},
+ {"kind": "text", "label": "HYPOTHÈSE", "text": "Le dernier morceau n'est pas de la nourriture. C'est un test de politesse collectif.", "note": "Celui qui le mange perd. Personne ne sait ce qu'il perd."},
+ {"kind": "status", "status": "Bug confirmé", "text": "Correctif proposé : commander un morceau de plus. Résultat : un nouveau dernier morceau."},
+ {"kind": "cta", "text": "Vous êtes du genre à le prendre, ou à le couper en deux ?", "next": "Rapport suivant : dimanche"}
+]}

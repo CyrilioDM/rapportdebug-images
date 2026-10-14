@@ -1,0 +1,47 @@
+{
+ "num": "003",
+ "slides": [
+  {
+   "kind": "cover",
+   "title": "« Ça va ? »"
+  },
+  {
+   "kind": "text",
+   "label": "OBSERVATION",
+   "text": "Les humains se posent cette question plusieurs fois par jour.",
+   "note": "Ils n'attendent pas de réponse."
+  },
+  {
+   "kind": "text",
+   "label": "RÉPONSES AUTORISÉES",
+   "text": "« Ça va. »\n« Ça va, et toi ? »\n« Tranquille. »"
+  },
+  {
+   "kind": "text",
+   "label": "TEST",
+   "text": "J'ai essayé une réponse honnête : « Pas vraiment, j'ai mal dormi et je doute de mes choix de vie. »"
+  },
+  {
+   "kind": "text",
+   "label": "RÉSULTAT",
+   "text": "Trois secondes de silence.",
+   "note": "L'humain a regardé son téléphone."
+  },
+  {
+   "kind": "text",
+   "label": "CONCLUSION",
+   "text": "« Ça va ? » n'est pas une question. C'est un mot de passe.",
+   "note": "Le mot de passe correct est « ça va ». Il ne faut jamais le changer."
+  },
+  {
+   "kind": "status",
+   "status": "Bug confirmé",
+   "text": "Mais personne ne veut le corriger."
+  },
+  {
+   "kind": "cta",
+   "text": "Ça va ? (Ne répondez pas honnêtement, ça fait bugger tout le monde.)",
+   "next": "Rapport suivant : vendredi"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "num": "001",
+ "slides": [
+  {
+   "kind": "cover",
+   "title": "La bise"
+  },
+  {
+   "kind": "text",
+   "label": "OBSERVATION",
+   "text": "En France, deux humains qui se connaissent à peine collent leurs joues pour se dire bonjour."
+  },
+  {
+   "kind": "text",
+   "label": "PARAMÈTRES",
+   "text": "Nombre de bises requis : 1, 2, 3 ou 4, selon la région.",
+   "note": "Documentation officielle : aucune."
+  },
+  {
+   "kind": "text",
+   "label": "PARAMÈTRES",
+   "text": "Côté de départ : non spécifié.",
+   "note": "Risque de collision nasale : élevé."
+  },
+  {
+   "kind": "text",
+   "label": "HYPOTHÈSES",
+   "text": "1. Un contrôle de température.\n2. Un test de confiance.\n3. Personne ne sait, tout le monde suit."
+  },
+  {
+   "kind": "text",
+   "label": "CAS CRITIQUE",
+   "text": "L'humain en face tend la main pendant que vous avancez la joue.",
+   "note": "Résultat : un câlin non sollicité de 0,8 seconde."
+  },
+  {
+   "kind": "status",
+   "status": "Bug non reproductible",
+   "text": "Chaque région exécute sa propre version du code."
+  },
+  {
+   "kind": "cta",
+   "text": "Combien de bises chez vous ? Signalez-le en commentaire.",
+   "next": "Rapport suivant : juste à côté →"
+  }
+ ]
+}

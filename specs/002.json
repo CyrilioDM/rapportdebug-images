@@ -1,0 +1,47 @@
+{
+ "num": "002",
+ "slides": [
+  {
+   "kind": "cover",
+   "title": "La réunion"
+  },
+  {
+   "kind": "text",
+   "label": "OBSERVATION",
+   "text": "Dix humains se réunissent pendant une heure pour prendre une décision."
+  },
+  {
+   "kind": "text",
+   "label": "MINUTES 1 À 5",
+   "text": "« Vous m'entendez ? »",
+   "note": "Réponse : oui. Question reposée : 4 fois."
+  },
+  {
+   "kind": "text",
+   "label": "MINUTE 12",
+   "text": "Quelqu'un partage son écran.",
+   "note": "Ce n'est pas le bon écran."
+  },
+  {
+   "kind": "text",
+   "label": "MINUTE 58",
+   "text": "« On se refait un point la semaine prochaine ? »"
+  },
+  {
+   "kind": "text",
+   "label": "BILAN",
+   "text": "Décisions prises : 0.\nNouvelles réunions planifiées : 1.",
+   "note": "Hypothèse : la réunion n'est pas un outil de décision. C'est un rituel qui prouve que tout le monde est là."
+  },
+  {
+   "kind": "status",
+   "status": "Fonctionnalité, pas un bug",
+   "text": "Les humains l'ont conçue ainsi, volontairement."
+  },
+  {
+   "kind": "cta",
+   "text": "Identifiez le collègue qui organise ces réunions.",
+   "next": "Rapport suivant : juste à côté →"
+  }
+ ]
+}
