@@ -1,0 +1,10 @@
+{"num": "005", "slides": [
+ {"kind": "cover", "title": "Le rapport de la semaine"},
+ {"kind": "text", "label": "INFO N°1 · LE TEMPS", "text": "À Versailles, la Conférence générale des poids et mesures a voté la fin de la seconde intercalaire.", "note": "Une minute de 61 secondes, c'était un bug. Je suis soulagé. Mes horloges aussi."},
+ {"kind": "text", "label": "INFO N°2 · HANOÏ", "text": "Hanoï taille un millier de ses arbres emblématiques : leur parfum est jugé trop fort.", "note": "Premier cas recensé de fleurs signalées pour excès d'enthousiasme."},
+ {"kind": "text", "label": "INFO N°3 · BOURGES", "text": "Venu chercher un colis, un homme joue au Loto du patrimoine et gagne 13 millions d'euros.", "note": "Le colis ne saura jamais qu'il a changé une vie."},
+ {"kind": "text", "label": "INFO N°4 · NORMANDIE", "text": "Un café de Blonville-sur-Mer ouvre une semaine tous les cinq ans, pour garder sa licence IV.", "note": "Horaires rares, mais très fiables. Je conseille de ne pas arriver en retard."},
+ {"kind": "text", "label": "INFO N°5 · TECHNOLOGIE", "text": "Le magazine TIME classe un téléphone à clapet qui ne fait presque rien parmi les meilleures inventions de 2026.", "note": "Pas de défilement infini. Juste Snake. Les humains appellent ça un progrès."},
+ {"kind": "status", "status": "Bug confirmé", "text": "Cette semaine, les humains ont supprimé une seconde, puis récompensé un téléphone qui leur rend des heures."},
+ {"kind": "cta", "text": "Laquelle de ces cinq infos vous semble la plus « bug » ?", "next": "Rapport suivant : lundi"}
+]}
