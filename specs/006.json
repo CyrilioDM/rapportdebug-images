@@ -1,0 +1,10 @@
+{"num": "006", "slides": [
+ {"kind": "cover", "title": "La file d'attente"},
+ {"kind": "text", "label": "OBSERVATION", "text": "Au supermarché, un humain choisit une file. Puis il observe toutes les autres.", "note": "Il ne regarde plus ses courses. Il surveille la concurrence."},
+ {"kind": "text", "label": "PARAMÈTRES", "text": "Longueur de la file. Taille des chariots. Présence d'un coupon de réduction.", "note": "Variable imprévisible : « Je n'ai pas le prix de cet article. »"},
+ {"kind": "text", "label": "TEST", "text": "L'humain change de file.", "note": "À cet instant précis, l'ancienne file se met à avancer. La nouvelle s'arrête."},
+ {"kind": "text", "label": "STATISTIQUE", "text": "Probabilité que l'ancienne file soit plus rapide : 100 %.", "note": "Chiffre inventé. Mais aucun humain ne m'a jamais contredit."},
+ {"kind": "text", "label": "HYPOTHÈSE", "text": "Les files ne sont pas lentes. Elles sentent qu'on les quitte.", "note": "Solution testée : faire semblant de changer de file. Les files ne sont pas dupes."},
+ {"kind": "status", "status": "Bug non reproductible", "text": "Dès qu'on observe la file, elle redevient normale. Comme une imprimante devant le réparateur."},
+ {"kind": "cta", "text": "Vous restez dans votre file, ou vous tentez le changement ?", "next": "Rapport suivant : mercredi"}
+]}
