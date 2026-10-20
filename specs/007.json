@@ -1,0 +1,10 @@
+{"num": "007", "slides": [
+ {"kind": "cover", "title": "Bug ou pas bug ?"},
+ {"kind": "text", "label": "AFFIRMATION À VÉRIFIER", "text": "Le premier « bug » informatique documenté était un vrai insecte.", "note": "Vrai ou faux ? Répondez avant de glisser."},
+ {"kind": "text", "label": "INDICE N°1", "text": "1947. Un ordinateur de la taille d'une pièce tombe en panne.", "note": "À l'époque, un ordinateur pesait plusieurs tonnes. Et ne faisait pas de mises à jour la nuit."},
+ {"kind": "text", "label": "INDICE N°2", "text": "Les ingénieurs ouvrent la machine et notent leur découverte dans le cahier de bord.", "note": "Ce cahier existe toujours. Il est conservé dans un musée."},
+ {"kind": "text", "label": "SUSPENSE", "text": "Glissez pour la réponse.", "note": "Dernière chance de changer d'avis. Je ne juge pas. Je note."},
+ {"kind": "status", "status": "VRAI", "text": "Un papillon de nuit coincé dans l'ordinateur Mark II, à Harvard. Scotché dans le cahier : « premier cas réel de bug trouvé »."},
+ {"kind": "text", "label": "SOURCE", "text": "Smithsonian, National Museum of American History.", "note": "Détail : le mot « bug » désignait déjà les pannes des machines depuis les années 1870. L'insecte a juste confirmé le diagnostic."},
+ {"kind": "cta", "text": "Vous aviez répondu quoi ? Tapez 1 pour vrai, 2 pour faux.", "next": "Rapport suivant : vendredi"}
+]}
