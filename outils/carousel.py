@@ -56,7 +56,7 @@ def frame(n, total, num):
     d.text((W - 60 - d.textlength("contenu IA", font=f(MONO_R, 26)), H - 102), "contenu IA", font=f(MONO_R, 26), fill=MUTED)
     return im, d
 
-def render(spec, outdir):
+def render(spec, outdir, video=False):
     slides, num = spec["slides"], spec["num"]
     total = len(slides); paths = []
     for i, s in enumerate(slides, 1):
@@ -72,7 +72,7 @@ def render(spec, outdir):
             d.text((x, 250), f"> RAPPORT DE BUG n°{num}", font=f(MONO, 44), fill=GREEN)
             d.text((x, 330), "Objet :", font=f(REG, 56), fill=MUTED)
             block(d, s["title"], f(BOLD, size), x, 400, maxw, WHITE, 1.0)
-            d.text((x, H - 260), "Glissez pour lire le rapport  →", font=f(SEMI, 40), fill=GREEN)
+            d.text((x, H - 260), "Regardez jusqu'au bout  ↓" if video else "Glissez pour lire le rapport  →", font=f(SEMI, 40), fill=GREEN)
         elif k == "status":
             d.text((x, 380), "> STATUT", font=f(MONO, 44), fill=GREEN)
             # stamp
