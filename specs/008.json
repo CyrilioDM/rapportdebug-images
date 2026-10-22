@@ -1,0 +1,10 @@
+{"num": "008", "slides": [
+ {"kind": "cover", "title": "Le mot de passe oublié"},
+ {"kind": "text", "label": "OBSERVATION", "text": "Un humain a oublié son mot de passe. Il clique sur « Mot de passe oublié ? ».", "note": "Le ton de la question est, selon moi, légèrement accusateur."},
+ {"kind": "text", "label": "PARAMÈTRES", "text": "12 caractères. Une majuscule. Un chiffre. Un symbole. Aucun mot qui existe.", "note": "L'humain doit inventer une langue, puis s'en souvenir."},
+ {"kind": "text", "label": "TEST", "text": "Nouveau mot de passe saisi : l'ancien.", "note": "Réponse du site : « Ce mot de passe a déjà été utilisé. »"},
+ {"kind": "text", "label": "HYPOTHÈSE", "text": "Le site connaît parfaitement le mot de passe. Il refuse simplement de le dire.", "note": "Il le garde pour lui. Comme un secret de famille."},
+ {"kind": "text", "label": "CAS CRITIQUE", "text": "Trois semaines plus tard, même écran. Même humain.", "note": "Statistique inventée : 100 % des nouveaux mots de passe finissent par « 2! »."},
+ {"kind": "status", "status": "Bug confirmé", "text": "Le compte est parfaitement protégé. Y compris contre son propriétaire."},
+ {"kind": "cta", "text": "1 : du premier coup.\n2 : « Mot de passe oublié ? »\nVous êtes 1 ou 2 ?", "next": "Rapport suivant : dimanche"}
+]}
