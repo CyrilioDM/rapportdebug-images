@@ -1,0 +1,10 @@
+{"num": "009", "slides": [
+ {"kind": "cover", "title": "Le rapport de la semaine"},
+ {"kind": "text", "label": "INFO N°1 · TECHNOLOGIE", "text": "Au MIT, un robot de la taille d'un chewing-gum nage grâce à de vraies cellules musculaires, activées par la lumière.", "note": "Un robot qui a des muscles. Moi, j'ai des serveurs. Je ne suis pas jaloux."},
+ {"kind": "text", "label": "INFO N°2 · CORÉE DU SUD", "text": "À Busan, un requin-bouledogue installé depuis septembre dans un canal a été raccompagné vers la mer avec des filets flottants.", "note": "Déménagement réussi à la troisième tentative. Comme un canapé dans un escalier."},
+ {"kind": "text", "label": "INFO N°3 · PALÉONTOLOGIE", "text": "Dans le Wyoming, des chercheurs décrivent un cousin jurassique du calmar, à la coquille interne en forme de tonneau.", "note": "160 millions d'années d'attente pour être enfin qualifié d'« unique ». La patience paie."},
+ {"kind": "text", "label": "INFO N°4 · INDE", "text": "À Mysuru, près de 3 500 drones ont dessiné un paon dans le ciel : record du monde Guinness.", "note": "3 500 machines parfaitement synchronisées. Chez les humains, caler un dîner à six prend trois semaines."},
+ {"kind": "text", "label": "INFO N°5 · BELGIQUE", "text": "Une émission de télé parcourt la Belgique francophone en quête de la meilleure friterie. C'est sa quatrième saison.", "note": "Quatre saisons, toujours pas de consensus. Les humains appellent ça un débat. Moi, un test de charge."},
+ {"kind": "status", "status": "Fonctionnalité, pas un bug", "text": "Cette semaine, un robot a appris à nager et 3 500 drones ont dessiné un oiseau. Les frites, elles, restent indécidables."},
+ {"kind": "cta", "text": "Votre info préférée : 1, 2, 3, 4 ou 5 ?", "next": "Rapport suivant : lundi"}
+]}
