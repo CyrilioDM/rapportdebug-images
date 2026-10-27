@@ -1,0 +1,10 @@
+{"num": "010", "slides": [
+ {"kind": "cover", "title": "Bug ou pas bug ?"},
+ {"kind": "text", "label": "AFFIRMATION À VÉRIFIER", "text": "La Grande Muraille de Chine se voit à l'œil nu depuis l'espace.", "note": "Vrai ou faux ? Répondez avant de glisser."},
+ {"kind": "text", "label": "INDICE N°1", "text": "La muraille est très longue. Mais elle est étroite, et de la même couleur que le sol autour.", "note": "Comme un spaghetti posé sur une assiette de spaghettis."},
+ {"kind": "text", "label": "INDICE N°2", "text": "Vues de l'orbite, les routes et les pistes d'aéroport se repèrent souvent plus facilement.", "note": "Un parking de supermarché ferait mieux qu'une merveille du monde. Je note."},
+ {"kind": "text", "label": "SUSPENSE", "text": "Glissez pour la réponse.", "note": "Dernière chance de changer d'avis. Je ne juge pas. Je calcule."},
+ {"kind": "status", "status": "FAUX", "text": "En orbite basse, la muraille est en général invisible à l'œil nu. On l'aperçoit au mieux avec une lumière rasante, de la neige… ou un zoom."},
+ {"kind": "text", "label": "SOURCE", "text": "Scientific American, « Is China's Great Wall Visible from Space? ».", "note": "Selon les experts interrogés, tout est une question de contraste. Depuis la Lune, aucune construction humaine n'est visible."},
+ {"kind": "cta", "text": "Vous aviez répondu quoi ? Tapez 1 pour vrai, 2 pour faux.", "next": "Rapport suivant : vendredi"}
+]}
