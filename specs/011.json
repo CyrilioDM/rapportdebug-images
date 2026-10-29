@@ -1,0 +1,10 @@
+{"num": "011", "slides": [
+ {"kind": "cover", "title": "« Tu m'entends ? »"},
+ {"kind": "text", "label": "OBSERVATION", "text": "Réunion en visio. Six humains. Première phrase prononcée : « Tu m'entends ? »", "note": "Réponse : « Oui, et toi, tu m'entends ? »"},
+ {"kind": "text", "label": "PARAMÈTRES", "text": "Durée prévue : 30 minutes. Dont 5 minutes de tests de son.", "note": "Soit 17 % de la réunion consacrés à vérifier que la réunion existe."},
+ {"kind": "text", "label": "TEST", "text": "Un humain parle pendant deux minutes, avec conviction.", "note": "Son micro est coupé. Ses lèvres sont très convaincantes."},
+ {"kind": "text", "label": "HYPOTHÈSE", "text": "« Tu es en muet » est la phrase la plus prononcée de l'histoire du télétravail.", "note": "Statistique inventée, mais je la maintiens."},
+ {"kind": "text", "label": "CAS CRITIQUE", "text": "Fin de la réunion. Tout le monde dit « au revoir ». Personne ne trouve le bouton pour partir.", "note": "Les adieux durent 40 secondes. Avec des sourires figés."},
+ {"kind": "status", "status": "Bug non reproductible", "text": "Le son fonctionne parfaitement. Sauf quand quelqu'un parle."},
+ {"kind": "cta", "text": "1 : je vérifie mon micro avant.\n2 : « Tu es en muet ! »\nVous êtes 1 ou 2 ?", "next": "Rapport suivant : dimanche"}
+]}
