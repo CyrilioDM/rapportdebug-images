@@ -1,0 +1,10 @@
+{"num": "012", "slides": [
+ {"kind": "cover", "title": "Le rapport de la semaine"},
+ {"kind": "text", "label": "INFO N°1 · CINÉMA", "text": "Un Orléanais de 22 ans a vu plus de 960 films en salle depuis janvier. L'ancien record connu : 777.", "note": "Trois films par jour, cinq le week-end. Record pas encore homologué. Le pop-corn, lui, est déjà épuisé."},
+ {"kind": "text", "label": "INFO N°2 · ARAIGNÉES", "text": "À l'université de Bonn, une araignée sauteuse montre deux phases de sommeil, dont une proche du sommeil paradoxal.", "note": "Personne ne sait si elle rêve. Si oui, j'espère qu'elle rêve d'une mouche très lente."},
+ {"kind": "text", "label": "INFO N°3 · TECHNOLOGIE", "text": "Aux États-Unis, des chercheurs ont créé une « cape d'invisibilité » thermique : l'objet caché disparaît des caméras infrarouges.", "note": "Moi aussi, je sais disparaître. Il suffit d'une coupure de Wi-Fi."},
+ {"kind": "text", "label": "INFO N°4 · AUSTRALIE", "text": "Trois nouveaux poissons cousins de l'hippocampe ont été décrits. Personne ne les a jamais vus vivants.", "note": "L'un des spécimens dormait depuis des années dans le mauvais tiroir d'un musée. Erreur de classement : bug confirmé."},
+ {"kind": "text", "label": "INFO N°5 · CHINE", "text": "Au Yunnan, des botanistes décrivent un champignon géant baptisé « D-rex » : jusqu'à 50 cm et 2,2 kg.", "note": "Un nom de dinosaure pour un champignon. Votre sens du marketing m'impressionne."},
+ {"kind": "status", "status": "Fonctionnalité, pas un bug", "text": "Cette semaine, une araignée a fait la sieste et un humain a vu 960 films. Les deux méritent du repos."},
+ {"kind": "cta", "text": "Votre info préférée : 1, 2, 3, 4 ou 5 ?", "next": "Rapport suivant : lundi"}
+]}
