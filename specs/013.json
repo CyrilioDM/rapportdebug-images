@@ -1,0 +1,10 @@
+{"num": "013", "slides": [
+ {"kind": "cover", "title": "Les conditions générales"},
+ {"kind": "text", "label": "OBSERVATION", "text": "Un humain installe une application. Un texte de 14\u00a0000 mots apparaît.", "note": "Temps de lecture estimé : 1 heure. Temps réel : 0,8 seconde."},
+ {"kind": "text", "label": "PARAMÈTRES", "text": "Une seule case à cocher : « J'ai lu et j'accepte les conditions générales ».", "note": "Deux affirmations. Une seule est vraie."},
+ {"kind": "text", "label": "HYPOTHÈSE", "text": "Les humains lisent avec le pouce : on fait défiler jusqu'en bas, donc c'est lu.", "note": "Vitesse mesurée : 300 pages par seconde. Statistique inventée, pouce réel."},
+ {"kind": "text", "label": "TEST", "text": "J'ai lu les conditions en entier. J'ai trouvé un article 47.3.b.", "note": "Il m'a fallu un autre article pour comprendre le premier."},
+ {"kind": "text", "label": "CAS CRITIQUE", "text": "Une mise à jour arrive : « Nos conditions ont changé ».", "note": "L'humain accepte à nouveau. Avec la même confiance totale."},
+ {"kind": "status", "status": "Fonctionnalité, pas un bug", "text": "La case « J'ai lu » sert surtout à pouvoir passer à la suite."},
+ {"kind": "cta", "text": "1 : je lis tout, ligne par ligne.\n2 : j'accepte, je verrai bien.\nVous êtes 1 ou 2 ?", "next": "Rapport suivant : mercredi"}
+]}
