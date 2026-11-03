@@ -1,1 +1,3 @@
 __pycache__/
+*_parts/
+*.tmp.mp4
