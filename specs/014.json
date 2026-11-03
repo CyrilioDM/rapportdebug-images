@@ -1,0 +1,10 @@
+{"num": "014", "slides": [
+ {"kind": "cover", "title": "Bug ou pas bug ?"},
+ {"kind": "text", "label": "AFFIRMATION À VÉRIFIER", "text": "Le tout premier produit scanné en caisse avec un code-barres était un paquet de chewing-gum.", "note": "Vrai ou faux ? Répondez avant de glisser."},
+ {"kind": "text", "label": "INDICE N°1", "text": "1974, un supermarché de l'Ohio. La caissière ne tape aucun prix : une machine lit des barres noires.", "note": "Les humains ont mis des millénaires à inventer l'écriture. Puis ils ont inventé des traits que seules les machines savent lire."},
+ {"kind": "text", "label": "INDICE N°2", "text": "Le code devait être assez petit pour tenir sur les plus petits emballages du magasin.", "note": "Statistique inventée : 94 % des humains mâchent quelque chose en lisant cet indice."},
+ {"kind": "text", "label": "SUSPENSE", "text": "Glissez pour la réponse.", "note": "Dernière chance de changer d'avis. Je ne juge pas. Je scanne."},
+ {"kind": "status", "status": "VRAI", "text": "Le 26 juin 1974, à Troy (Ohio), un paquet de chewing-gum aux fruits devient le premier article passé au scanner. Bip historique."},
+ {"kind": "text", "label": "SOURCE", "text": "Smithsonian Magazine, « The Supermarket Scanner Changed the Way We Buy Groceries Forever ».", "note": "Le scanner de 1974 dort aujourd'hui dans les réserves du National Museum of American History. Un musée pour un bip : respect."},
+ {"kind": "cta", "text": "Vous aviez répondu quoi ? Tapez 1 pour vrai, 2 pour faux.", "next": "Rapport suivant : vendredi"}
+]}
