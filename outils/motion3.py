@@ -148,6 +148,44 @@ def word_layer(d, blk, key, inv=True):
 
 ANIMS = ("pop", "up", "left", "tilt", "drop")
 
+EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+_emo = {}
+
+
+def emoji_img(ch, size):
+    """Émoji couleur (Noto Color Emoji, licence OFL), rogné et mis à l'échelle."""
+    if (ch, size) not in _emo:
+        from PIL import ImageFont
+        f = ImageFont.truetype(EMOJI_FONT, 109)
+        im = Image.new("RGBA", (220 * max(1, len(ch)), 160), (0, 0, 0, 0))
+        ImageDraw.Draw(im).text((10, 10), ch, font=f, embedded_color=True)
+        im = im.crop(im.getbbox())
+        r = size / max(im.width, im.height)
+        _emo[(ch, size)] = im.resize((max(1, int(im.width * r)), max(1, int(im.height * r))), Image.LANCZOS)
+    return _emo[(ch, size)]
+
+
+def draw_emoji(frame, ch, fx, t, cx, cy, size=230):
+    """fx : bounce (défaut), chop (s'abat en boucle), blink (clignote), point (montre le bas)."""
+    k = eb(t / 0.35)
+    if k <= 0:
+        return
+    sc, ang, dx, dy = k, 7 * math.sin(t * 5), 0, 10 * math.sin(t * 4)
+    if fx == "chop":
+        ph = (t * 2.2) % 1.0; ang = 35 - 70 * eo(min(1, ph / 0.25)) if ph < 0.25 else -35 + 70 * eo((ph - 0.25) / 0.75)
+    elif fx == "blink":
+        sc = k * (1.0 + 0.12 * (math.sin(t * 18) > 0)); ang = 0
+    elif fx == "point":
+        dy = 22 * abs(math.sin(t * 6)); ang = 0
+    elif fx == "spin":
+        ang = (t * 240) % 360
+    im = emoji_img(ch, size)
+    if ang:
+        im = im.rotate(ang, expand=True, resample=Image.BICUBIC)
+    if sc != 1.0:
+        im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))))
+    frame.paste(im, (int(cx - im.width / 2 + dx), int(cy - im.height / 2 + dy)), im)
+
 
 def place(frame, layer, anim, k, shake=(0, 0)):
     """k = progression de l'entrée (0 → 1)."""
@@ -260,6 +298,17 @@ def render(spec, out, voice_engine):
             else:
                 k = (t - LEAD - st[j]) / 0.16
                 place(im, layers[j], anims[j], k)
+            if b.get("emoji"):
+                fx = b.get("fx", "bounce")
+                if kind == "stamp":
+                    for ex in (210, W - 210):
+                        draw_emoji(im, b["emoji"], "blink", t - 0.3, ex, CY + 330, 170)
+                elif kind == "cta":
+                    if t > len(c) / SR + LEAD:
+                        for ex, ch in ((90, "👉"), (W - 90, "👈")):
+                            draw_emoji(im, ch, "point", t - len(c) / SR - LEAD, ex, 1180, 100)
+                else:
+                    draw_emoji(im, b["emoji"], fx, t, W / 2, 1250, 230)
             return im
 
         part = os.path.join(work, f"p{bi:02d}.mp4")
@@ -268,6 +317,8 @@ def render(spec, out, voice_engine):
             (snd.pop if key else snd.tick)(start + LEAD + s_)
         if bi > 0:
             snd.whoosh(start)
+        if b.get("emoji") and kind == "text":
+            snd.pop(start + 0.05)
         if kind == "stamp":
             snd.stamp(start + 0.2)
         if kind == "cta":
