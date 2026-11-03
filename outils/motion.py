@@ -461,7 +461,7 @@ def main(spec_path, out, voice=None, only_frames=None):
     silent = f"{work}/video.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", silent], check=True)
     if voice:
-        audio = ["-i", sfx, "-i", voice, "-filter_complex", "[1:a]volume=0.35[a1];[2:a]volume=1.0[a2];[a1][a2]amix=inputs=2:duration=first[a]", "-map", "0:v", "-map", "[a]"]
+        audio = ["-i", sfx, "-i", voice, "-filter_complex", "[1:a]volume=0.35[a1];[2:a]volume=1.0[a2];[a1][a2]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5[a]", "-map", "0:v", "-map", "[a]"]
     else:
         audio = ["-i", sfx, "-map", "0:v", "-map", "1:a"]
     tmp = out[:-4] + ".tmp.mp4"

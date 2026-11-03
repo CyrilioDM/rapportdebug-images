@@ -15,3 +15,10 @@
 - Les diapositives sont régénérées en « mode vidéo » : « Glissez… » devient « Regardez jusqu'au bout » / « Attendez… ».
 - Durée de chaque diapositive : 2,5 à 5 s selon la longueur du texte, fondu enchaîné, léger zoom, barre de progression.
 - Lien pour Metricool : `https://raw.githubusercontent.com/CyrilioDM/rapportdebug-images/<commit>/NNN/NNN.mp4`.
+
+## Vidéo (motion design + voix off)
+- `motion.py` : vidéo verticale 1080×1920 animée (texte tapé, visuels, tampon, glitchs, effets sonores) depuis `specs/video/NNN.json`.
+- `voix.py` : ajoute la voix off de Claude (Piper, voix libre `fr_FR-tom-medium`) et cale chaque scène sur sa réplique.
+  `python3 outils/voix.py specs/video/004.json 004/004-video.mp4` → vidéo finale avec voix.
+  Nécessite huggingface.co autorisé (téléchargement de la voix au premier lancement). `--secours` = voix espeak-ng pour tester.
+- Spec vidéo : scènes cover / text (visual : plate, timer, cut) / bubbles / status / cta, chacune avec un champ `voice`.
