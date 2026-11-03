@@ -17,6 +17,7 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import motion
+import motion2
 
 CACHE = os.path.expanduser("~/.cache/rdb-voix")
 PIPER_URL = "https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz"
@@ -61,9 +62,11 @@ def say(engine, text, out):
     env = dict(os.environ, LD_LIBRARY_PATH=pdir)
     text = text.replace(" ", " ")
     if kind == "piper":
+        text = text.replace("*", "")
         subprocess.run([os.path.join(pdir, "piper"), "-q", "-m", model, "--length_scale", str(SPEED),
                         "--sentence_silence", "0.25", "-f", out], input=text.encode(), env=env, check=True)
     else:
+        text = text.replace("*", "")
         subprocess.run([os.path.join(pdir, "espeak-ng"), "--path=" + pdir, "-v", "fr", "-s", "160", "-w", out, "--stdin"],
                        input=text.encode(), env=env, check=True)
 
@@ -79,13 +82,15 @@ def main(spec_path, out, fallback=False):
     spec = json.load(open(spec_path))
     engine = setup(fallback)
     work = tempfile.mkdtemp(prefix="voix_")
+    v2 = spec.get("engine") == "v2"
     motion.SPEC = spec
     clips = []
     for i, sc in enumerate(spec["scenes"]):
-        natural = motion.plan(sc)["dur"]
+        natural = motion2.natural(sc) if v2 else motion.plan(sc)["dur"]
         if sc.get("voice"):
             wav = os.path.join(work, f"v{i:02d}.wav"); say(engine, sc["voice"], wav)
             clip = load(wav); clips.append(clip)
+            sc["voice_dur"] = round(len(clip) / motion.SR, 3)
             sc["duration"] = round(max(natural, START + len(clip) / motion.SR + TAIL), 2)
         else:
             clips.append(None); sc["duration"] = natural
@@ -101,7 +106,7 @@ def main(spec_path, out, fallback=False):
     with wave.open(vwav, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(motion.SR); w.writeframes((track * 32767).astype(np.int16).tobytes())
     tspec = os.path.join(work, "spec.json"); json.dump(spec, open(tspec, "w"), ensure_ascii=False)
-    motion.main(tspec, out, vwav)
+    (motion2 if v2 else motion).main(tspec, out, vwav)
     shutil.rmtree(work, ignore_errors=True)
 
 

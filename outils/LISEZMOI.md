@@ -22,3 +22,6 @@
   `python3 outils/voix.py specs/video/004.json 004/004-video.mp4` → vidéo finale avec voix.
   Nécessite huggingface.co autorisé (téléchargement de la voix au premier lancement). `--secours` = voix espeak-ng pour tester.
 - Spec vidéo : scènes cover / text (visual : plate, timer, cut) / bubbles / status / cta, chacune avec un champ `voice`.
+- `motion2.py` : moteur vidéo v2 (Claude en personnage animé qui réagit et « parle », sous-titres mot à mot synchronisés,
+  illustrations, secousses et zooms). Activé quand la spec vidéo contient `"engine": "v2"` ; voix.py l'appelle alors.
+  Visuels : plate, timer, cut, think (défaut sans visuel), bubbles. Dans `voice`, *mot* = mot surligné en vert.
