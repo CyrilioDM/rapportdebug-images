@@ -1,0 +1,12 @@
+{"num": "004", "engine": "v3", "next": "Rapport suivant : dimanche", "beats": [
+ {"say": "Il reste un *morceau*.", "label": "OBSERVATION"},
+ {"say": "Tout le monde le regarde."},
+ {"say": "*Personne* ne le prend."},
+ {"say": "Durée : *quarante-sept* minutes.", "label": "MESURE"},
+ {"say": "« Quelqu'un le veut ? » « Non non, vas-y. »", "label": "PROTOCOLE"},
+ {"say": "Alors ils le coupent en *deux*. Puis encore. Puis encore.", "label": "SOLUTION"},
+ {"say": "Résultat : *trois* millimètres."},
+ {"say": "Ce n'est pas de la nourriture. C'est un *test* de politesse.", "label": "HYPOTHÈSE"},
+ {"say": "Bug confirmé.", "kind": "stamp", "label": "STATUT"},
+ {"say": "Et vous, vous le *prenez* ?", "kind": "cta", "label": "ACTION REQUISE"}
+]}

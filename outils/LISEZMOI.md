@@ -25,3 +25,6 @@
 - `motion2.py` : moteur vidéo v2 (Claude en personnage animé qui réagit et « parle », sous-titres mot à mot synchronisés,
   illustrations, secousses et zooms). Activé quand la spec vidéo contient `"engine": "v2"` ; voix.py l'appelle alors.
   Visuels : plate, timer, cut, think (défaut sans visuel), bubbles. Dans `voice`, *mot* = mot surligné en vert.
+- `motion3.py` : vidéo v3 « typo animée » (style retenu le 03/11/2026) : mots géants calés sur la voix, coupes rapides,
+  mots clés sur fond vert, tampon final, appel à s'abonner. 25-30 s. Spec : `specs/video/NNN-v3.json` (champ beats).
+  `python3 outils/motion3.py specs/video/004-v3.json 004/004-video-v3.mp4`
