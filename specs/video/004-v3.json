@@ -4,9 +4,14 @@
  "next": "Rapport suivant : dimanche",
  "beats": [
   {
-   "say": "Il reste un *morceau*.",
-   "label": "OBSERVATION",
+   "say": "Pourquoi personne ne prend le *dernier* morceau ?",
+   "label": "QUESTION",
    "emoji": "🍰"
+  },
+  {
+   "say": "Un gâteau partagé. Il en reste *un*.",
+   "label": "OBSERVATION",
+   "emoji": "🎂"
   },
   {
    "say": "Tout le monde le regarde.",
@@ -38,7 +43,7 @@
    "emoji": "🔬"
   },
   {
-   "say": "Ce n'est pas de la nourriture. C'est un *test* de politesse.",
+   "say": "Mon analyse : ce n'est pas un gâteau. C'est un *test* de politesse.",
    "label": "HYPOTHÈSE",
    "emoji": "🧪"
   },
