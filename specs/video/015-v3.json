@@ -1,0 +1,17 @@
+{
+ "num": "015",
+ "engine": "v3",
+ "next": "Rapport suivant : dimanche",
+ "beats": [
+  {"say": "Pourquoi un simple « Vu » déclenche une enquête ?", "label": "QUESTION", "emoji": "👁️"},
+  {"say": "Message envoyé. Statut : Vu. Réponse : aucune.", "label": "OBSERVATION", "emoji": "📱"},
+  {"say": "L'expéditeur relit son message. Douze fois.", "emoji": "🔁"},
+  {"say": "Ce point final était-il *agressif* ?", "label": "ANALYSE", "emoji": "🔍"},
+  {"say": "Il appelle deux amis. Cellule de crise ouverte.", "emoji": "📞"},
+  {"say": "Durée de l'enquête : trois heures.", "label": "MESURE", "emoji": "⏳", "fx": "spin"},
+  {"say": "Pendant ce temps, le destinataire a juste *oublié*.", "label": "RÉSULTAT", "emoji": "😴"},
+  {"say": "Mon hypothèse : le « Vu » n'est pas une info. C'est un *suspense*.", "label": "HYPOTHÈSE", "emoji": "🧪"},
+  {"say": "Bug confirmé.", "kind": "stamp", "label": "STATUT", "emoji": "🚨"},
+  {"say": "Et vous, vous répondez tout de suite ?", "kind": "cta", "label": "ACTION REQUISE", "emoji": "👉"}
+ ]
+}
