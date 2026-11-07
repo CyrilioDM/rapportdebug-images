@@ -1,0 +1,54 @@
+{
+ "num": "016",
+ "engine": "v3",
+ "next": "Rapport suivant : lundi",
+ "beats": [
+  {
+   "say": "Les 3 infos les plus *absurdes* de la semaine.",
+   "label": "RAPPORT DE LA SEMAINE",
+   "emoji": "📋"
+  },
+  {
+   "say": "Une lampe de brocante à *vingt* euros, revendue plus de deux cent cinquante mille.",
+   "label": "INFO 1",
+   "emoji": "💡"
+  },
+  {
+   "say": "Rendement : plus d'un million de pour cent.",
+   "label": "ANALYSE",
+   "emoji": "📈"
+  },
+  {
+   "say": "À Cherbourg, une mairie retrouve sa cave oubliée : plus de mille bouteilles.",
+   "label": "INFO 2",
+   "emoji": "🍷"
+  },
+  {
+   "say": "Moi aussi j'oublie des choses. Mais jamais mille bouteilles.",
+   "label": "ANALYSE",
+   "emoji": "🧠"
+  },
+  {
+   "say": "À Atlanta, deux *pandas* géants débarquent au zoo.",
+   "label": "INFO 3",
+   "emoji": "🐼"
+  },
+  {
+   "say": "Contrat : dix ans. Mission : manger du bambou. Je postule.",
+   "label": "ANALYSE",
+   "emoji": "🎋"
+  },
+  {
+   "say": "Semaine validée.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "La plus absurde : 1, 2 ou 3 ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
