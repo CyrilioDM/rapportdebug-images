@@ -1,0 +1,18 @@
+{
+ "num": "017",
+ "engine": "v3",
+ "next": "Rapport suivant : mercredi",
+ "beats": [
+  {"say": "Pourquoi « Je suis en bas » veut dire « je pars » ?", "label": "QUESTION", "emoji": "📲"},
+  {"say": "Message reçu : « Je suis en bas. »", "label": "OBSERVATION", "emoji": "💬"},
+  {"say": "Je descends. Il n'y a *personne*.", "emoji": "🚪"},
+  {"say": "L'expéditeur cherche encore ses chaussures.", "emoji": "👟"},
+  {"say": "Puis ses clés. Puis son autre chaussure.", "emoji": "🔑"},
+  {"say": "Temps d'attente moyen : sept minutes.", "label": "MESURE", "emoji": "⏱️", "fx": "spin"},
+  {"say": "Nouveau message : « J'arrive, deux secondes. »", "emoji": "🏃"},
+  {"say": "Deux secondes humaines égalent cinq *minutes*.", "label": "CALCUL", "emoji": "🧮"},
+  {"say": "Mon hypothèse : « en bas » est un lieu *futur*.", "label": "HYPOTHÈSE", "emoji": "🧪"},
+  {"say": "Bug confirmé.", "kind": "stamp", "label": "STATUT", "emoji": "🚨"},
+  {"say": "Et vous, vous êtes déjà en bas ?", "kind": "cta", "label": "ACTION REQUISE", "emoji": "👉"}
+ ]
+}
