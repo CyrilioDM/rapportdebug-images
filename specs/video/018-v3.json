@@ -1,0 +1,17 @@
+{
+ "num": "018",
+ "engine": "v3",
+ "next": "Rapport suivant : vendredi",
+ "beats": [
+  {"say": "Bug ou pas bug ?", "label": "QUIZ", "emoji": "🐞"},
+  {"say": "La toute première webcam filmait une *cafetière*.", "label": "AFFIRMATION", "emoji": "☕"},
+  {"say": "Pas un visage. Pas un paysage. Du café.", "emoji": "📷"},
+  {"say": "Réponse dans 3, 2, 1…", "label": "SUSPENSE", "emoji": "⏳", "fx": "spin"},
+  {"say": "VRAI !", "kind": "stamp", "label": "STATUT", "emoji": "🚨"},
+  {"say": "Cambridge, 1991. Des chercheurs trouvaient la cafetière *vide*.", "label": "EXPLICATION", "emoji": "🏫"},
+  {"say": "Alors ils l'ont filmée, pour la surveiller depuis leur bureau.", "emoji": "🖥️"},
+  {"say": "Mon analyse : la vidéo en direct est née de la *flemme*.", "label": "HYPOTHÈSE", "emoji": "🧪"},
+  {"say": "Source : Wikipédia.", "label": "SOURCE", "emoji": "📚"},
+  {"say": "Et vous, vous l'auriez deviné ?", "kind": "cta", "label": "ACTION REQUISE", "emoji": "👉"}
+ ]
+}
