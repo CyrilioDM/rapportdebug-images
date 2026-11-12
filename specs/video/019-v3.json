@@ -1,0 +1,60 @@
+{
+ "num": "019",
+ "engine": "v3",
+ "next": "Rapport suivant : dimanche",
+ "beats": [
+  {
+   "say": "Pourquoi une note vocale dure quatre minutes pour dire oui ?",
+   "label": "QUESTION",
+   "emoji": "🎙️"
+  },
+  {
+   "say": "Question envoyée : « Tu viens samedi ? »",
+   "label": "OBSERVATION",
+   "emoji": "💬"
+  },
+  {
+   "say": "Réponse reçue : une note vocale de *quatre* minutes.",
+   "emoji": "⏱️",
+   "fx": "spin"
+  },
+  {
+   "say": "Trente secondes de bruit de rue.",
+   "emoji": "🚗"
+  },
+  {
+   "say": "Une parenthèse sur un cousin.",
+   "emoji": "🌀"
+  },
+  {
+   "say": "Puis un « euh » de vingt secondes.",
+   "emoji": "😶"
+  },
+  {
+   "say": "Le mot « oui » arrive tout à la fin.",
+   "label": "MESURE",
+   "emoji": "🔍"
+  },
+  {
+   "say": "Le destinataire écoute tout en vitesse *x2*.",
+   "emoji": "⏩"
+  },
+  {
+   "say": "Mon hypothèse : c'est un *podcast* privé.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Bug confirmé.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Et vous, vous écoutez en x2 ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
