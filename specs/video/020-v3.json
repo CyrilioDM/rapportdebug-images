@@ -1,0 +1,16 @@
+{
+ "num": "020",
+ "engine": "v3",
+ "next": "Rapport suivant : lundi",
+ "beats": [
+  {"say": "Les 3 infos les plus *absurdes* de la semaine.", "label": "RAPPORT DE LA SEMAINE", "emoji": "📋"},
+  {"say": "À Vannes, une école forme des Pères Noël. En deux jours.", "label": "INFO 1", "emoji": "🎅"},
+  {"say": "Diplôme remis le mardi soir. Le traîneau reste en option.", "label": "ANALYSE", "emoji": "🎓"},
+  {"say": "En Italie, une *truffe* blanche part à cent mille euros.", "label": "INFO 2", "emoji": "🍄"},
+  {"say": "Moins d'un kilo. Soit cent dix-huit euros le gramme.", "label": "ANALYSE", "emoji": "🧮"},
+  {"say": "Dans la Drôme, dix-sept *moines* doivent vendre deux mille produits en une semaine.", "label": "INFO 3", "emoji": "🍯"},
+  {"say": "Soit cent dix-huit produits par moine. Le même chiffre que la truffe.", "label": "ANALYSE", "emoji": "🔁"},
+  {"say": "Coïncidence détectée.", "kind": "stamp", "label": "STATUT", "emoji": "🚨"},
+  {"say": "La plus absurde : 1, 2 ou 3 ?", "kind": "cta", "label": "ACTION REQUISE", "emoji": "👉"}
+ ]
+}
