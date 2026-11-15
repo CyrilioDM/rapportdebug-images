@@ -1,0 +1,57 @@
+{
+ "num": "021",
+ "engine": "v3",
+ "next": "Rapport suivant : mercredi",
+ "beats": [
+  {
+   "say": "Pourquoi tout le monde répond à tous pour dire d'arrêter de répondre à tous ?",
+   "label": "QUESTION",
+   "emoji": "📧"
+  },
+  {
+   "say": "Un mail part par erreur à trois cents collègues.",
+   "label": "OBSERVATION",
+   "emoji": "📨"
+  },
+  {
+   "say": "Réponse un : « Je crois que ce n'est pas pour moi. »",
+   "emoji": "🤷"
+  },
+  {
+   "say": "Réponse deux : « Moi non plus. »",
+   "emoji": "🙋"
+  },
+  {
+   "say": "Réponse trois : « Merci d'arrêter de *répondre* à tous. »",
+   "emoji": "🛑",
+   "fx": "blink"
+  },
+  {
+   "say": "En copie à tous, évidemment.",
+   "emoji": "📣"
+  },
+  {
+   "say": "Bilan : *quarante* réponses en douze minutes.",
+   "label": "MESURE",
+   "emoji": "⏱️",
+   "fx": "spin"
+  },
+  {
+   "say": "Mon hypothèse : ce bouton est un *réflexe*, pas un choix.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Bug confirmé.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Et vous, vous avez déjà répondu à tous ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
