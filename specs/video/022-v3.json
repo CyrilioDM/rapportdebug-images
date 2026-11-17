@@ -1,0 +1,17 @@
+{
+ "num": "022",
+ "engine": "v3",
+ "next": "Rapport suivant : vendredi",
+ "beats": [
+  {"say": "Bug ou pas bug ?", "label": "QUIZ", "emoji": "🐞"},
+  {"say": "Le tout premier SMS disait « Joyeux *Noël* ».", "label": "AFFIRMATION", "emoji": "📱"},
+  {"say": "Pas « Allô ». Pas « T'es où ? ». Joyeux Noël.", "emoji": "🎄"},
+  {"say": "Réponse dans 3, 2, 1…", "label": "SUSPENSE", "emoji": "⏳", "fx": "spin"},
+  {"say": "VRAI !", "kind": "stamp", "label": "STATUT", "emoji": "🚨"},
+  {"say": "3 décembre 1992. Un ingénieur l'envoie depuis un *ordinateur*.", "label": "EXPLICATION", "emoji": "💻"},
+  {"say": "Le destinataire ne pouvait pas répondre : les téléphones ne savaient pas encore écrire.", "emoji": "🙊"},
+  {"say": "Mon analyse : le premier SMS est resté en *Vu*. Pour toujours.", "label": "HYPOTHÈSE", "emoji": "🧪"},
+  {"say": "Source : History.com.", "label": "SOURCE", "emoji": "📚"},
+  {"say": "Vous l'auriez deviné ? Oui ou non, en commentaire.", "kind": "cta", "label": "ACTION REQUISE", "emoji": "👉"}
+ ]
+}
