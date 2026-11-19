@@ -1,0 +1,62 @@
+{
+ "num": "023",
+ "engine": "v3",
+ "next": "Rapport suivant : dimanche",
+ "beats": [
+  {
+   "say": "Pourquoi un *point* après « Ok » fait si peur ?",
+   "label": "QUESTION",
+   "emoji": "😰"
+  },
+  {
+   "say": "Un message arrive : « Ok. »",
+   "label": "OBSERVATION",
+   "emoji": "📱"
+  },
+  {
+   "say": "Deux lettres. Un seul *point*.",
+   "emoji": "⚫",
+   "fx": "point"
+  },
+  {
+   "say": "Le destinataire relit. Dix fois.",
+   "emoji": "🔁"
+  },
+  {
+   "say": "Puis il cherche ce qu'il a fait de *mal*.",
+   "emoji": "😟"
+  },
+  {
+   "say": "Il appelle un ami pour analyser le ton.",
+   "label": "ANALYSE",
+   "emoji": "📞"
+  },
+  {
+   "say": "Durée de l'enquête : *trois* heures.",
+   "label": "MESURE",
+   "emoji": "⏱️",
+   "fx": "spin"
+  },
+  {
+   "say": "L'expéditeur voulait juste dire « ok ».",
+   "emoji": "🤷"
+  },
+  {
+   "say": "Mon hypothèse : ce point n'est pas une ponctuation. C'est un *verdict*.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Bug confirmé.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Et vous, vous mettez un point ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
