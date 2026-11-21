@@ -1,0 +1,54 @@
+{
+ "num": "024",
+ "engine": "v3",
+ "next": "Rapport suivant : lundi",
+ "beats": [
+  {
+   "say": "Combien coûte une seule lettre sur une plaque, à Monaco ?",
+   "label": "RAPPORT DE LA SEMAINE",
+   "emoji": "🚗"
+  },
+  {
+   "say": "Réponse : dix mille euros la lettre.",
+   "label": "INFO 1",
+   "emoji": "💶"
+  },
+  {
+   "say": "Quatre lettres maximum. Un prénom court devient un *investissement*.",
+   "label": "ANALYSE",
+   "emoji": "📈"
+  },
+  {
+   "say": "Au Pérou, un cachalot fossile avait le museau *tordu*.",
+   "label": "INFO 2",
+   "emoji": "🐋"
+  },
+  {
+   "say": "Trente et un degrés. Et les deux narines à gauche. Réglage d'usine.",
+   "label": "ANALYSE",
+   "emoji": "🔧"
+  },
+  {
+   "say": "Au fond du Pacifique, deux cent quarante-cinq animaux dans un seul *caillou*.",
+   "label": "INFO 3",
+   "emoji": "🪨"
+  },
+  {
+   "say": "Deux cent quarante-cinq colocataires. Aucun ne fait la vaisselle.",
+   "label": "ANALYSE",
+   "emoji": "🧽"
+  },
+  {
+   "say": "Planète bizarre.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "La plus absurde : 1, 2 ou 3 ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
