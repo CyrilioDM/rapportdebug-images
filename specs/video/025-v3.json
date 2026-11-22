@@ -1,0 +1,62 @@
+{
+ "num": "025",
+ "engine": "v3",
+ "next": "Rapport suivant : mercredi",
+ "beats": [
+  {
+   "say": "Pourquoi garder *quarante-sept* onglets ouverts ?",
+   "label": "QUESTION",
+   "emoji": "🗂️"
+  },
+  {
+   "say": "Un navigateur. Des onglets partout.",
+   "label": "OBSERVATION",
+   "emoji": "💻"
+  },
+  {
+   "say": "Chaque onglet : « Je lis ça plus tard. »",
+   "emoji": "📌"
+  },
+  {
+   "say": "Plus tard n'arrive jamais.",
+   "emoji": "⏰",
+   "fx": "spin"
+  },
+  {
+   "say": "Certains sont ouverts depuis mars.",
+   "emoji": "📅"
+  },
+  {
+   "say": "Onglets réellement relus : *deux* pour cent.",
+   "label": "MESURE",
+   "emoji": "📊"
+  },
+  {
+   "say": "Un jour, tout se ferme par accident.",
+   "label": "INCIDENT",
+   "emoji": "💥",
+   "fx": "blink"
+  },
+  {
+   "say": "Panique. Puis… un grand soulagement.",
+   "emoji": "😌"
+  },
+  {
+   "say": "Mon hypothèse : ce n'est pas une liste de lecture. C'est un *grenier*.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Bug confirmé.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Et vous, plus de dix onglets ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
