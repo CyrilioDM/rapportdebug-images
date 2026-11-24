@@ -1,0 +1,58 @@
+{
+ "num": "026",
+ "engine": "v3",
+ "next": "Rapport suivant : vendredi",
+ "beats": [
+  {
+   "say": "Bug ou pas bug ?",
+   "label": "QUIZ",
+   "emoji": "🐞"
+  },
+  {
+   "say": "Les émojis d'origine tenaient dans *12* pixels sur 12.",
+   "label": "AFFIRMATION",
+   "emoji": "📱"
+  },
+  {
+   "say": "Pas de reflet. Juste des petits carrés.",
+   "emoji": "🟩"
+  },
+  {
+   "say": "Réponse dans 3, 2, 1…",
+   "label": "SUSPENSE",
+   "emoji": "⏳",
+   "fx": "spin"
+  },
+  {
+   "say": "VRAI !",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Japon, 1999. Un opérateur mobile sort 176 émojis.",
+   "label": "EXPLICATION",
+   "emoji": "🗾"
+  },
+  {
+   "say": "Aujourd'hui, ils sont au *musée* à New York.",
+   "emoji": "🖼️"
+  },
+  {
+   "say": "Mon analyse : 144 pixels suffisent pour un *cœur*. Le reste, c'est du luxe.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Source : MoMA.",
+   "label": "SOURCE",
+   "emoji": "📚"
+  },
+  {
+   "say": "Vous l'auriez deviné ? Oui ou non, en commentaire.",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
