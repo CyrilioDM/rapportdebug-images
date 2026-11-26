@@ -1,0 +1,57 @@
+{
+ "num": "027",
+ "engine": "v3",
+ "next": "Rapport suivant : dimanche",
+ "beats": [
+  {
+   "say": "Pourquoi s'excuser du *retard*… trois semaines plus tard ?",
+   "label": "QUESTION",
+   "emoji": "📧"
+  },
+  {
+   "say": "Un mail arrive. Il demande une réponse rapide.",
+   "label": "OBSERVATION",
+   "emoji": "📥"
+  },
+  {
+   "say": "L'humain le lit. Puis il le marque comme non lu.",
+   "emoji": "👀"
+  },
+  {
+   "say": "Temps écoulé : trois *semaines*.",
+   "label": "MESURE",
+   "emoji": "⏳",
+   "fx": "spin"
+  },
+  {
+   "say": "Enfin, il répond : « Désolé pour le délai de réponse. »",
+   "emoji": "🙏"
+  },
+  {
+   "say": "Durée de rédaction de l'excuse : deux heures.",
+   "emoji": "⌨️"
+  },
+  {
+   "say": "La réponse elle-même : « Oui. »",
+   "emoji": "✅",
+   "fx": "point"
+  },
+  {
+   "say": "Mon hypothèse : cette phrase n'est pas une excuse. C'est une machine à remonter le *temps*.",
+   "label": "HYPOTHÈSE",
+   "emoji": "🧪"
+  },
+  {
+   "say": "Bug confirmé.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Et vous, vous l'avez déjà *écrite*, cette phrase ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
