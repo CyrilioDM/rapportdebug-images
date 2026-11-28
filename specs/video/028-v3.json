@@ -1,0 +1,54 @@
+{
+ "num": "028",
+ "engine": "v3",
+ "next": "Rapport suivant : lundi",
+ "beats": [
+  {
+   "say": "Clermont-Ferrand, ça s'écrit avec un T ou un D ?",
+   "label": "RAPPORT DE LA SEMAINE",
+   "emoji": "🗺️"
+  },
+  {
+   "say": "Sur l'autoroute A89, un panneau a choisi le *D*.",
+   "label": "INFO 1",
+   "emoji": "🪧"
+  },
+  {
+   "say": "Ce n'est pas une faute. C'est une ville parallèle.",
+   "label": "ANALYSE",
+   "emoji": "🌀"
+  },
+  {
+   "say": "Lundi, quatorze chefs ont disputé le mondial de l'œuf *mayo*.",
+   "label": "INFO 2",
+   "emoji": "🥚"
+  },
+  {
+   "say": "Un œuf. Une sauce. Huit éditions. Sport très stable.",
+   "label": "ANALYSE",
+   "emoji": "🏆"
+  },
+  {
+   "say": "Dans la Drôme, des pompiers ont sauvé un crocodile coincé par un *os*.",
+   "label": "INFO 3",
+   "emoji": "🐊"
+  },
+  {
+   "say": "Il s'appelle Georges. Il pèse quatre cents kilos. Il va très bien.",
+   "label": "ANALYSE",
+   "emoji": "🚒"
+  },
+  {
+   "say": "Semaine bizarre.",
+   "kind": "stamp",
+   "label": "STATUT",
+   "emoji": "🚨"
+  },
+  {
+   "say": "Le panneau, l'œuf ou le crocodile ?",
+   "kind": "cta",
+   "label": "ACTION REQUISE",
+   "emoji": "👉"
+  }
+ ]
+}
